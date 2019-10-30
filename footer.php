@@ -17,19 +17,19 @@ $container = get_theme_mod( 'understrap_container_type' );
     <footer class="p-2 bg-dark wow bounceInUp">
         <div class="<?php echo esc_attr( $container ); ?>">
             <div class="row">
-                <div class="col-sm-5">
-                    <div class="text-center small text-light"><a href="http://talkingheads.com/affiliate/">Powered by Talking Heads<sup class="smaller"><i class="fal fa-registered"></i></sup></a> </div>
-                    <div class="quotes">
-                        <p id="changeQuote" class="text-center small text-info"></p>
-                    </div>
-                </div>
-                <div class="col-sm-2 small">
+                <div class="col-md-3 small">
                     <div class="text-center text-light">Why Video?</div>
                     <div class="text-center italics"><a href="tel://801-748-2281" title="Let's Talk!">"It's <span class="thin">Time</span> We Talk..."</a> </div>
                     <div class="text-center"><i class="fa fa-phone text-light"></i> <br/>
                         <span><a href="tel://801-748-2281" title="Give us a call." >801-748-2281</a></span> </div>
                 </div>
-                <div class="col-sm-5">
+                <div class="col-md-6">
+                    <div class="text-center small text-light"><a href="http://talkingheads.com/affiliate/">Powered by Talking Heads<sup class="smaller"><i class="fal fa-registered"></i></sup></a> </div>
+                    <div class="quotes">
+                        <p id="changeQuote" class="text-center text-capitalize text-info"></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
                     <div class="text-center small text-light">Navigation</div>
                     <?php
                     $crumbs = explode( "/", $_SERVER[ "REQUEST_URI" ] );
